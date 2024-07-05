@@ -1,0 +1,6 @@
+{
+  "name": "3d-stage",
+  "version": "1.0.0",
+  "main": "Stage/index.tsx",
+  "type": "module"
+}
