@@ -3,7 +3,7 @@ import { EnvironmentProps, Environment } from "./Environment"
 import { ContactShadowsProps, ContactShadows } from "./ContactShadows"
 import { CenterProps, Center } from "./Center"
 import { useBounds, Bounds } from "./Bounds"
-import { PresetsType } from "../../helpers/getEnvironmentAssets"
+import { PresetsType } from "./getEnvironmentAssets"
 
 const presets = {
   rembrandt: {

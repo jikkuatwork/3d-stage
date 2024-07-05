@@ -17,7 +17,7 @@ import {
   TextureEncoding,
 } from "three"
 import { GroundProjectedEnv as GroundProjectedEnvImpl } from "three-stdlib"
-import { PresetsType } from "../helpers/environment-assets"
+import { PresetsType } from "./getEnvironmentAssets"
 import { EnvironmentLoaderProps, useEnvironment } from "./useEnvironment"
 
 export type EnvironmentProps = {

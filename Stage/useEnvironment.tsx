@@ -14,7 +14,7 @@ import {
 
 import { RGBELoader } from "three-stdlib"
 
-import { presetsObj, PresetsType } from "../../helpers/getEnvironmentAssets"
+import { presetsObj, PresetsType } from "./getEnvironmentAssets"
 
 const CUBEMAP_ROOT = "https://storybraincdn.azureedge.net/template-assets/"
 
