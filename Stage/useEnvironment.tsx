@@ -16,7 +16,7 @@ import { RGBELoader } from "three-stdlib"
 
 import { presetsObj, PresetsType } from "./getEnvironmentAssets"
 
-const CUBEMAP_ROOT = "https://storybraincdn.azureedge.net/template-assets/"
+const CUBEMAP_ROOT = "https://cdn.storybrain.com/template-assets/"
 
 export type EnvironmentLoaderProps = {
   files?: string | string[]
@@ -66,6 +66,6 @@ export function useEnvironment({
   texture.mapping = isCubeMap
     ? CubeReflectionMapping
     : EquirectangularReflectionMapping
-  texture.encoding = encoding ?? isCubeMap ? sRGBEncoding : LinearEncoding
+  texture.encoding = (encoding ?? isCubeMap) ? sRGBEncoding : LinearEncoding
   return texture
 }
